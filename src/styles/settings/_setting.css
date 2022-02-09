@@ -1,5 +1,11 @@
 :root {
-    --color-primary: #4D84F4;
-    --color-secondary: #f5414f;
+    --color-secondary: #f26c6c;
+    --color-primary: #f74646;
+    --color-inputs: #fde2e2; 
     --font-primary: 'Montserrat';
+    --font-size-buttons: 16px;
+    --padding-buttons: 20px 40px;
+    --border-buttons: 12px;
+    --margin-buttons: 4px 2px;
+    --padding-inputs: 10px 20px;
 }

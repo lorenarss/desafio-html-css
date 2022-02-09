@@ -1,11 +1,63 @@
 .button {
-    border: none;
-    color: red;
-    padding: 15px 32px;
+    border-color: orange;
+    background-color: white;
+    color: black;
+    padding: var(--padding-buttons);
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: var(--font-size-buttons);
+    margin: var(--margin-buttons);
     cursor: pointer;
+    border-radius: var(--border-buttons);
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #f5ed82; /* Green */
+    color: rgb(243, 112, 64);
+}
+
+.button1{
+    border-color: orange;
+    background-color: white;
+    color: black;
+    padding: var(--padding-buttons);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--font-size-buttons);
+    margin: var(--margin-buttons);
+    border-radius: var(--border-buttons);
+}
+
+button:disabled,
+button[disabled]{
+    border-color: black;
+    background-color: red;
+    color: black;
+    padding: var(--padding-buttons);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--font-size-buttons);
+    margin: var(--margin-buttons);
+    cursor: pointer;
+    border-radius: var(--border-buttons);
+    transition-duration: 0.4s;
+    opacity: 0.5;
+}
+
+.button2:focus{
+    background-color:red;
+    border-color: orange;
+    color: black;
+    padding: var(--padding-buttons);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--font-size-buttons);
+    margin: var(--margin-buttons);
+    cursor: pointer;
+    border-radius: var(--border-buttons);
 }
