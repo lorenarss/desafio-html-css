@@ -2,3 +2,5 @@
 @import 'elements/_element.body.css';
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
+@import 'components/_button.css';
+@import 'components/_input.css';
