@@ -1,4 +1,12 @@
 body,
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 1;
+}
 h1,
 h2,
 h3,
@@ -11,7 +19,9 @@ pre,
 dl,
 dd,
 ol,
-ul,
+nav, ul{
+  list-style: none;
+}
 form,
 fieldset,
 legend,
