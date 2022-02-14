@@ -1,4 +1,6 @@
 header {
+    font-weight: bolder;
+    font-size: medium;
     width: 100%;
     position: absolute;
     top: 0;
@@ -10,14 +12,15 @@ header {
 }
 
 header img {
-    width: 200px;
+    width: 150px;
 }
 
 header nav {
     display: flex;
+    
 }
 header li a {
-    color: orangered;
+    color: black;
 }
 
 header li {
@@ -32,6 +35,7 @@ header li:last-child {
     margin-right: 0;
 }
 
+
 @media (max-width: 700px) {
     header {
         flex-direction: column;
@@ -42,7 +46,6 @@ header li:last-child {
     background-image: url(../../images/pexels-pixabay-459653.jpg);
     background-size: cover;
     min-height: 100vh;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +54,8 @@ header li:last-child {
 }
 
 .hero h1 {
+    color: rgb(236, 210, 168);
     font-size: 3.2rem;
     margin-bottom: 15px;
+    text-align: left;
 }

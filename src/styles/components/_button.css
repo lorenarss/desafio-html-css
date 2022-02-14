@@ -1,20 +1,21 @@
 .button {
-    border-color: orange;
-    background-color: white;
-    color: black;
+    border-color: orangered;
+    background-color: Transparent;
+    background-color: none;
     padding: var(--padding-buttons);
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: var(--font-size-buttons);
     margin: var(--margin-buttons);
     cursor: pointer;
     border-radius: var(--border-buttons);
     transition-duration: 0.4s;
+   
 }
 
 .button:hover {
-    background-color: #f5ed82; /* Green */
+    background-color: #f5ed82;
     color: rgb(243, 112, 64);
 }
 
