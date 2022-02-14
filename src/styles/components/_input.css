@@ -1,0 +1,23 @@
+.input:focus {
+    border: 2px solid red;
+    border-color: var(--color-secondary);
+    background-color: var(--color-inputs);
+    border-radius: 16px;
+    width: 20%;
+    padding: var(--padding-inputs);
+}
+.input1{
+    border: 2px solid red;
+    background-color: var(--color-inputs);
+    border-radius: 16px;
+    width: 20%;
+    padding: var(--padding-inputs);
+}
+
+input[type="text"]:disabled {
+    background: var(--color-inputs);
+    border-color: var(--color-secondary);
+    border-radius: 16px;
+    width: 20%;
+    padding: var(--padding-inputs);
+}
